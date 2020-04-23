@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA65BE8A244FE19100ABA859 /* black.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA65BE89244FE19100ABA859 /* black.mp4 */; };
 		FAF65FD4244D317F00F786DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF65FD3244D317F00F786DC /* AppDelegate.swift */; };
 		FAF65FD6244D317F00F786DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF65FD5244D317F00F786DC /* ViewController.swift */; };
 		FAF65FD8244D317F00F786DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF65FD7244D317F00F786DC /* Assets.xcassets */; };
 		FAF65FDB244D317F00F786DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF65FD9244D317F00F786DC /* Main.storyboard */; };
+		FAF65FE4244D31D100F786DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAF65FE3244D31D100F786DC /* README.md */; };
+		FAF65FE7244D342000F786DC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF65FE5244D342000F786DC /* Photo.swift */; };
+		FAF65FE8244D342000F786DC /* Photo.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF65FE6244D342000F786DC /* Photo.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA65BE89244FE19100ABA859 /* black.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = black.mp4; sourceTree = "<group>"; };
 		FAF65FD0244D317F00F786DC /* Project7-tc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project7-tc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF65FD3244D317F00F786DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF65FD5244D317F00F786DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +26,9 @@
 		FAF65FDA244D317F00F786DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF65FDC244D317F00F786DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF65FDD244D317F00F786DC /* Project7_tc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project7_tc.entitlements; sourceTree = "<group>"; };
+		FAF65FE3244D31D100F786DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAF65FE5244D342000F786DC /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		FAF65FE6244D342000F786DC /* Photo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Photo.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,7 @@
 		FAF65FC7244D317F00F786DC = {
 			isa = PBXGroup;
 			children = (
+				FAF65FE3244D31D100F786DC /* README.md */,
 				FAF65FD2244D317F00F786DC /* Project7-tc */,
 				FAF65FD1244D317F00F786DC /* Products */,
 			);
@@ -57,6 +66,9 @@
 				FAF65FD5244D317F00F786DC /* ViewController.swift */,
 				FAF65FD7244D317F00F786DC /* Assets.xcassets */,
 				FAF65FD9244D317F00F786DC /* Main.storyboard */,
+				FA65BE89244FE19100ABA859 /* black.mp4 */,
+				FAF65FE5244D342000F786DC /* Photo.swift */,
+				FAF65FE6244D342000F786DC /* Photo.xib */,
 				FAF65FDC244D317F00F786DC /* Info.plist */,
 				FAF65FDD244D317F00F786DC /* Project7_tc.entitlements */,
 			);
@@ -121,6 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF65FE8244D342000F786DC /* Photo.xib in Resources */,
+				FAF65FE4244D31D100F786DC /* README.md in Resources */,
+				FA65BE8A244FE19100ABA859 /* black.mp4 in Resources */,
 				FAF65FD8244D317F00F786DC /* Assets.xcassets in Resources */,
 				FAF65FDB244D317F00F786DC /* Main.storyboard in Resources */,
 			);
@@ -133,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF65FE7244D342000F786DC /* Photo.swift in Sources */,
 				FAF65FD6244D317F00F786DC /* ViewController.swift in Sources */,
 				FAF65FD4244D317F00F786DC /* AppDelegate.swift in Sources */,
 			);
